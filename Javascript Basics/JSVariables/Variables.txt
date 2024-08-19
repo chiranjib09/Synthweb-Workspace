@@ -1,0 +1,15 @@
+VARIABLES IN JavaScript
+
+
+-> JavaScript variables are used to store data that can be changed later on.
+   These variables can be thought of as named containers.
+   You can place data into these containers and then refer to the data simply by naming the container.
+
+   In JavaScript, you can declare the variables in 4 ways −
+    - Without using any keywords.
+    - Using the 'var' keyword.
+    - Using the 'let' keyword.
+    - Using the 'const' keyword.
+
+   The let and const keywords were introduced to JavaScript in 2015 (ES6). Prior to ES6, only var keyword was used to declare the variable in JavaScript.
+
