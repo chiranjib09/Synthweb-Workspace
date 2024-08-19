@@ -1,4 +1,4 @@
-VARIABLES IN JavaScript
+Q- VARIABLES IN JavaScript
 
 
 -> JavaScript variables are used to store data that can be changed later on.
@@ -12,4 +12,13 @@ VARIABLES IN JavaScript
     - Using the 'const' keyword.
 
    The let and const keywords were introduced to JavaScript in 2015 (ES6). Prior to ES6, only var keyword was used to declare the variable in JavaScript.
+
+Q- Differences between var, let , const .
+
+  -> VAR:
+      Var-declared variables are function-scoped, which means their scope is constrained to the function in which they are specified. It will still be possible to access a variable that is declared using the var keyword inside of a block, such as a loop or conditional expression.
+  -> Let :
+      Let declarations limit variables to the block where they are specified. Because of this, let is especially helpful for preventing unintentional variable hoisting and lowering the possibility of scope-related errors.
+  -> Const :
+     Constants (const), which are variables that cannot have their initial value changed, are declared using the new ES6 keyword const. Constrained to the block in which it is defined, const is block-scoped, like let. const is thus a good choice for declaring variables that shouldn’t change while a block of code is being executed.
 
