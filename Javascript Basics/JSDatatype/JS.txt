@@ -1,0 +1,21 @@
+ What is Javascript ?
+   -> JavaScript is a lightweight, interpreted programming language. It is commonly used to create dynamic and interactive elements in web applications.
+    ->JavaScript is very easy to implement because it is integrated with HTML. It is open and cross-platform.
+
+
+Primitive Data Types in JavaScript
+   ->JavaScript Primitive data types can be classified further into the following types:
+       String                        Boolean
+       Number                        Undefined
+       Null                          Symbol
+       BigInt
+
+Composite Data Types in JavaScript
+   ->These data types can hold collections of values and more complex values.
+
+       Object type
+       Array type
+
+
+
+
