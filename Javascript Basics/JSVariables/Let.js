@@ -10,4 +10,4 @@ console.log(y)
 
 
 
-//Variables declared with let have Block Scope                                                                            Variables declared with let must be Declared before use                                                                   Variables declared with let cannot be Redeclared in the same scope
+//Variables declared with let have Block Scope                                                                                             Variables declared with let must be Declared before use                                                                              Variables declared with let cannot be Redeclared in the same scope
