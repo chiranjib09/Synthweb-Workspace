@@ -9,3 +9,5 @@ for (let i = 0; i < matrix.length; i++) {
       console.log(matrix[i][j]);
   }
 }
+
+//Nested for loops are used to create nested iterations, where one loop's iterations are performed within another loop's iterations.
