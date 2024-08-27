@@ -1,0 +1,16 @@
+GLOBAL SCOPE:
+
+  -> Variables declared outside of any function or block have global scope.
+     They can be accessed from anywhere within the JavaScript code, including functions and other blocks.
+     It's generally recommended to avoid using too many global variables, as they can make your code harder to maintain and can lead to naming conflicts.
+LOCAL SCOPE:
+
+  -> Variables declared within a function or block have local scope.
+     They can only be accessed within that function or block and its nested functions or blocks.
+     Once the function or block finishes executing, the local variables are destroyed.
+
+Key Points:
+
+   -> Global variables have a wider scope than local variables.
+      Local variables are typically preferred over global variables to avoid naming conflicts and improve code organization.
+      Understanding scope is essential for writing clean and maintainable JavaScript code.
