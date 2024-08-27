@@ -1,0 +1,24 @@
+                                                   ASYNCHRONOUS IN JAVASCRIPT
+  ->In asynchronous programming, tasks can be executed independently without blocking the main thread of execution.
+    This allows JavaScript to handle time-consuming operations like network requests, file I/O, and complex calculations without freezing the user interface.
+    Asynchronous operations are typically handled using callbacks, promises, or async/await
+
+  Callbacks:
+
+       -> A callback is a function that is passed as an argument to another function and is executed after the first function completes    its   task.
+          The callback function receives the result of the asynchronous operation as an argument.
+          The callback function typically receives the result of the asynchronous operation as an argument.
+     !  Drawbacks of Callbacks:
+               While callbacks are straightforward, they can lead to callback hell, a situation where callbacks are nested within callbacks, making the code difficult to read and maintain.
+
+  Promises:
+
+       -> A promise represents the eventual completion (or failure) of an asynchronous operation.
+          It has three states: pending, fulfilled, or rejected.  
+          The then method is used to handle the fulfillment of a promise, and the catch method is used to handle rejection.
+
+  async/await:
+
+       -> async/await is a syntactic sugar for working with promises.
+          The async keyword indicates that a function is asynchronous.
+          The await keyword can only be used within an async function and pauses the execution of the function until the promise is resolved.
