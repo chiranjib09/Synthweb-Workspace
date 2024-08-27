@@ -1,0 +1,11 @@
+                                                        CLOSURES
+
+   -> A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives a function access to its outer scope. In JavaScript, closures are created every time a function is created, at function creation time.
+
+ PRACTICAL CLOSURES:
+
+  -> THIS Closures are useful because they let you associate data (the lexical environment) with a function that operates on that data. This has obvious parallels to object-oriented programming, where objects allow you to associate data (the object's properties) with one or more methods.
+
+How Closures Work :
+  -> When a function is defined, it has access to its own local variables, parameters, and the variables in its outer (lexical) scope. A closure occurs when an inner function is able to access these variables even after the outer function has returned.
+
