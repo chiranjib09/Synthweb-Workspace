@@ -1,3 +1,13 @@
+LEXICAL SCOPE in JavaScript
+
+  -> Lexical scope is a fundamental concept in programming that determines the accessibility of variables and functions based on where they are defined in the source code.
+  ->Lexical scope defines the accessibility of variables and functions depending on their location in the source code.
+    --Variables and functions have different levels of scope:
+        --Global Scope: Variables defined outside any function or block, accessible anywhere in the program.
+        --Local Scope: Variables defined inside a function or block, accessible only within that specific function or block.
+        --Nested Scope: Inner functions have access to variables in their parent functions.
+        --Block Scope: Variables defined with let and const are limited to the block they are declared in, like loops or conditionals.
+
 GLOBAL SCOPE:
 
   -> Variables declared outside of any function or block have global scope.
@@ -8,9 +18,19 @@ LOCAL SCOPE:
   -> Variables declared within a function or block have local scope.
      They can only be accessed within that function or block and its nested functions or blocks.
      Once the function or block finishes executing, the local variables are destroyed.
+NESTED SCOPE:
+  -> When a function is defined within another function, it has access to variables defined in the parent function. This is known as nested scope.
+BLOCK SCOPE:
+  -> In JavaScript, variables declared within a block (defined by curly braces {}) have block scope.
+     This means they are only accessible within that block and any nested blocks.
+     They are not accessible outside of the block.
 
 Key Points:
 
    -> Global variables have a wider scope than local variables.
       Local variables are typically preferred over global variables to avoid naming conflicts and improve code organization.
       Understanding scope is essential for writing clean and maintainable JavaScript code.
+
+      Block scope is a relatively new feature introduced in ES6.
+      It helps to improve code readability and organization by limiting the scope of variables to the blocks where they are used.
+      Using let and const within blocks ensures that variables are only accessible within those blocks, preventing unintended side effects.
