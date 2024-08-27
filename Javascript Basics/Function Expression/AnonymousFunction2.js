@@ -1,4 +1,5 @@
-//Anonymous Function as a Callback
+//Anonymous Function as a CALLBACK
+
 //Anonymous functions are often used as callbacks, especially with array methods like map, filter, and forEach.
 //They are useful when you need to perform a simple operation and don't want to declare a named
 
