@@ -1,0 +1,25 @@
+   //  JAVASCRIPT STRING
+         ->The JavaScript string is a data type used to convey information as text, which differs from numerical data types like int. Specifically, an int value can only be a number, but strings can contain any character. Because of this, they are commonly used in software development across different industries and languages.
+
+         ->Strings are used to store and manipulate text.
+         ->Strings can also be created using single quotes,
+         let name = 'Harry'
+
+
+
+  //  What are JavaScript string methods?
+        -> Lowercase Method : toLowerCase()
+        -> Uppercase Method : toUpperCase()
+        -> Trim Method : trim()
+        -> Concat method : concat()
+        -> Replace Method : replace()
+        -> Split Method : split()
+        -> IndexOf Method : indexOf()
+        -> LastIndexOf Method : LastIndexof()
+        -> Substring Method : Substring()
+        -> Includes Methods : includes()
+        -> CharAt Method : charAt()
+        -> Length method : length()
+        -> Repeat Method : repeat()
+        -> Test Method : test()
+        -> Match method : match()
