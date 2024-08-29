@@ -1,4 +1,6 @@
 //Function Scope under Local Scope
+
+
 function localFunction() {
   let localVar = "I'm a local variable";
   console.log(localVar); 
