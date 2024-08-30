@@ -1,4 +1,4 @@
-                                                   ASYNCHRONOUS IN JAVASCRIPT
+                                             //ASYNCHRONOUS IN JAVASCRIPT
   ->In asynchronous programming, tasks can be executed independently without blocking the main thread of execution.
     This allows JavaScript to handle time-consuming operations like network requests, file I/O, and complex calculations without freezing the user interface.
     Asynchronous operations are typically handled using callbacks, promises, or async/await
@@ -16,6 +16,10 @@
        -> A promise represents the eventual completion (or failure) of an asynchronous operation.
           It has three states: pending, fulfilled, or rejected.  
           The then method is used to handle the fulfillment of a promise, and the catch method is used to handle rejection.
+
+  Advantages of Promises:
+       -> Chaining: Promises can be chained, improving code readability.
+          Error Handling: Promises provide a catch method to handle errors, which helps in managing error states more effectively.
 
   async/await:
 
